@@ -1,0 +1,119 @@
+@import "compass/utilities/general/clearfix";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f2f2f2;
+  font: 1.3em/1.5em 'Open Sans';
+  padding: 1em;
+  padding-top: 3em;
+}
+
+header {
+  background: #ccc;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 26px;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h1 {
+    display: inline-block;
+
+    a {
+      color: #fff;
+      font-size: 1.4rem;
+    }
+  }
+
+  nav {
+    display: inline-block;
+  }
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      padding: 2px 6px;
+    }
+  }
+}
+
+#canvas {
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+h1 { font-size: 2.0rem; }
+h2 { font-size: 1.8rem; }
+
+iframe {
+  max-width: 100%;
+}
+
+.card {
+  padding: 1em;
+  background: #fff;
+  margin: 0 1em 1em 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  position: relative;
+  @include clearfix;
+}
+
+.status {
+  width: 50px;
+  position: absolute;
+}
+
+.content {
+  margin-left: 60px;
+}
+
+.upvote {
+  width: 24px;
+  height: 24px;
+}
+
+.meta {
+  margin: .2em 0 0;
+  font-size: 0.8em;
+  color: #999;
+
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 464px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}
